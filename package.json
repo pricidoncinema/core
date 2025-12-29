@@ -1,0 +1,23 @@
+{
+  "name": "@teacinema/core",
+  "version": "1.0.0",
+  "author": {
+    "name": "Yura",
+    "email":"dddbjjk6@gmail.com"
+  },
+  "license": "ISC",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "description": "Core utilities and shared setup",
+  "peerDependencies": {
+    "prettier": "^3.0.0"
+  },
+  "dependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^5.2.2"
+  },
+  "exports": {
+    "prettier": "./src/prettier.config.mjs"
+  }
+}
