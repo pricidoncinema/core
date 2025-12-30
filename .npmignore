@@ -1,0 +1,10 @@
+node_modules/
+/.idea
+pnpm-lock.yaml
+.env
+.DS_Store
+*.log
+.github/
+yarn.lock
+package-lock.json
+Thumbs.db
